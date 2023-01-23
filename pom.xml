@@ -22,10 +22,17 @@
     <maven.compiler.target>17</maven.compiler.target>
     <spring.boot.dependencies.version>2.5.7</spring.boot.dependencies.version>
     <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
+    <postgres.user>neofoxcool@gmail.com</postgres.user>
+    <postgres.password>1993</postgres.password>
+    <postgres_user>postgres</postgres_user>
+    <postgres_pw>123456789</postgres_pw>
+    <postgres-db>postgres</postgres-db>
+
   </properties>
 
   <dependencyManagement>
     <dependencies>
+
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
