@@ -26,8 +26,8 @@ public class FraudCheckHistory {
 
     )
     private Long id;
-    private Integer customerId;
-    private Boolean idFraudster;
+    private Long customerId;
+    private Boolean isFraudster;
     private LocalDateTime creatAt;
 
 
